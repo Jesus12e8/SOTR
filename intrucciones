@@ -1,0 +1,27 @@
+ls    listado de archivos en el directorio actual 
+pwd   
+ls -l                     genera un listado de los archivos en tipo lista
+                          y muestra los pemisos del archivo
+touch                     crea un archivo<<archivo nombre.txt>>
+df                        muestra los sistemas de archivos montados e el sistema raiz
+df -h                     muestra los sistemas en formato humano
+df -ht                    muestra el tipo se systema de archivo
+sudo apt-get update
+sudo apt-get install vim
+vim nombre.txt
+insert
+
+    #include<stdio> /*printf()*/
+    
+    int main (int ar, char *arv[])
+    {
+        printf("Hola Mundo C en GNU-linux!\n");
+        retun 0;
+    }
+:wq
+mv nombre.txt archivo.c
+gcc
+sudo apt-get install gcc
+gcc archivo.c
+./a.out
+cat archivo.c
