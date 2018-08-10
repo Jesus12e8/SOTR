@@ -25,3 +25,37 @@ sudo apt-get install gcc
 gcc archivo.c
 ./a.out
 cat archivo.c
+
+::::***************************************************************************************::::
+sore debian
+
+modificadores------------------------------
+-i            modo interactivo
+-------------------------------------------
+mkdir         crea un directorio
+cd            mueve a un diectorio
+vi            nombre del archivo.c
+file nombre.c da el tipo de archivo y sus propuedads
+cat                 muestra el contenido de un archivo
+su                  convierte en root
+dpkg-l              optiene un listado de archivos dep
+dpkg -l|grep vim    optiene los paquetes instala
+rm -v archivo       borra un archivo
+echo $?             obtiene la variable de retorno
+gcc -c archivo.c               compila y genera un archivo tipo objeto
+gcc *.o -o nombre              crea un achivo ejecutable con otos archivos objetos
+gcc -o ejecutable1 nombres     crea achivo ejecutable
+
+ctrl+w+flecha       mueve entre ventanas
+
+
+
+
+------------------------------ archivo make file-----------------
+
+-----------------------------------------------------------------
+make
+vim makefile 
+clean:
+  rm -v *.o ejecutable
+
