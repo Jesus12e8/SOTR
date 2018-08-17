@@ -1,0 +1,14 @@
+#------------------------------------------------------------------
+# exit.s contiene cintiene una funcion para terminar 
+# la ejecucion de una aplicacion
+#
+# recibe como argumento un entero de 1 byte a traves 
+# de la pila (de acuerdo con la convencion de llamado de funciones
+# de lenguage C)
+#------------------------------------------------------------------
+#----------------------
+# codifica en ensamblador la funcion 
+
+    %esp      registro de la pila apunta al ultimo dato de ella
+    %ebp      registro del proesador
+    call      guarda en pila la direccion despues llamado a la funcion
