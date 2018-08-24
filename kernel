@@ -1,0 +1,32 @@
+wget -c https://mirrors.edge.kernel.org/pub/linux/kernel/v2.6/linux-2.6.18.tar.xz       descarga el archivo
+tar xvzf linux-2.6.18.tar.gz                                                            descomprime el archivo
+CD linux-2.6.18                                                                         entramos al directorio
+make defconfig                                                                          archivo .config
+vim .config
+make
+grep PATH_MAX .config
+make clean
+make menuconfig
+make defconfig
+grep PATH_MAX .config
+make menuconfig
+make clean
+grep -r PATH_MAX
+make Dzimage
+actualizar abajo del ifderf
+  #error Esta difinido __sun__
+  #else
+  #error no esta definidovim 
+  find ./ -name stdint.h
+  vim scripts/mod/sumvercion.c
+  ls -Rls /usr/include
+  find ./ -iname  *.h -exec grep limits.h {} \;
+  find ./ -iname  *.h .print -exec grep limits.h {} \;
+  find ./ -mane dirent.h
+  vim include/linux/dirent.h
+ wget -c https://mirrors.edge.kernel.org/pub/linux/kernel/v2.6/linux-2.6.31.6.tar.bz2
+ cd linux-
+ make defconfig
+ 
+ 
+  
