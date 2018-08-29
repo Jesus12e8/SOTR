@@ -29,4 +29,16 @@ actualizar abajo del ifderf
  make defconfig
  
  
+como crear un nucleo kernel para tratar de ejecutar sobre el emulador
+
+mkdir textkernel_4.18.4
+cp -v arch/i386/boot/bzimage /home/textkernel_4.18.4
+copiar las primeras 8/ lineas del archivo sobre qel kernel
+usuario beto
+contraseña beto
+su -> 89020342
+
+
+ 
+ 
   
