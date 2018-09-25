@@ -6,3 +6,9 @@ MAKE
 GENISOIMAGE
 COPIAR COMO KERNEL.ELF
 QEMU-SYSTEM-I386 -CDROM OS.ISO
+
+
+
+kernel
+  marte-kernel-devices_table.ads
+  marte-kernel-devices_table.adb
